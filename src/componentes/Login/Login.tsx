@@ -15,7 +15,7 @@ export default function Login() {
 
     try {
       await loginAction(formData);
-      alert("Login realizado com sucesso!");
+      window.location.reload();
     } catch (error) {
       alert("Falha no login. Por favor, tente novamente.");
     }

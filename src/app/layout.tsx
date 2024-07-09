@@ -1,16 +1,21 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { UserContextProvider } from "@/context/context";
+import { userGetAction } from "@/actions/user/user-get-action";
+import Menu from "@/componentes/Menu/Menu";
+import Header from "@/componentes/Header/Header";
 
 export const metadata: Metadata = {
   title: "Manut Smart",
   description: "Seu companheiro em manutenções programadas",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const { data: user } = await userGetAction();
   return (
     <html lang="pt-br">
       <head>
@@ -39,7 +44,12 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="Portal Altuori" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       </head>
-      <body>{children}</body>
+      <body className="bg-green-700">
+        <UserContextProvider user={user}>
+          <Header />
+          {children} <Menu />
+        </UserContextProvider>
+      </body>
     </html>
   );
 }
