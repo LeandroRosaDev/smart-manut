@@ -21,47 +21,56 @@ export default function Menu() {
       {isAuthenticated && (
         <nav className="flex justify-around p-4">
           <ul className="flex justify-between gap-4 w-full max-w-md mx-auto">
-            <li className="flex flex-col items-center">
-              <Image
-                src="/assets/icones/painel.svg"
-                width={30}
-                height={30}
-                alt="Icone"
-              />
-              <Link href="/" className="text-sm">
+            <li>
+              <Link href="/" className="text-sm flex flex-col items-center">
+                <Image
+                  src="/assets/icones/painel.svg"
+                  width={30}
+                  height={30}
+                  alt="Icone"
+                />
                 Painel
               </Link>
             </li>
-            <li className="flex flex-col items-center">
-              <Image
-                src="/assets/icones/servicos.svg"
-                width={30}
-                height={30}
-                alt="Icone"
-              />
-              <Link href="/servicos" className="text-sm">
+            <li>
+              <Link
+                href="/servicos"
+                className="text-sm flex flex-col items-center"
+              >
+                <Image
+                  src="/assets/icones/servicos.svg"
+                  width={30}
+                  height={30}
+                  alt="Icone"
+                />
                 Serviços
               </Link>
             </li>
-            <li className="flex flex-col items-center">
-              <Image
-                src="/assets/icones/duvidas.svg"
-                width={30}
-                height={30}
-                alt="Icone"
-              />
-              <Link href="/duvidas" className="text-sm">
+            <li>
+              <Link
+                href="/duvidas"
+                className="text-sm flex flex-col items-center"
+              >
+                <Image
+                  src="/assets/icones/duvidas.svg"
+                  width={30}
+                  height={30}
+                  alt="Icone"
+                />
                 Dúvidas
               </Link>
             </li>
-            <li className="flex flex-col items-center">
-              <Image
-                src="/assets/icones/conta.svg"
-                width={30}
-                height={30}
-                alt="Icone"
-              />
-              <Link href="/conta" className="text-sm">
+            <li>
+              <Link
+                href="/conta"
+                className="text-sm flex flex-col items-center"
+              >
+                <Image
+                  src="/assets/icones/conta.svg"
+                  width={30}
+                  height={30}
+                  alt="Icone"
+                />
                 Conta
               </Link>
             </li>

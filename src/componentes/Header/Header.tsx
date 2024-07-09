@@ -22,7 +22,7 @@ export default function Header() {
         <div className="flex flex-col gap-2">
           <div className="w-full h-4 bg-green-700 fixed"></div>
 
-          <header className="flex items-center justify-between px-4 py-1 mt-4 bg-green-700 shadow-md ">
+          <header className="flex items-center justify-between px-4 py-1 mt-4 bg-green-700">
             <div className="flex items-center ">
               <GetProfilePicture width="60" height="60" />
               <div className="ml-4 text-white">
