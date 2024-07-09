@@ -52,7 +52,7 @@ export default function GetProfilePicture({
                   {...props}
                   width={width}
                   height={height}
-                  className={`rounded-full mb-3 object-cover object-center ${className}`}
+                  className={`rounded-full mb-3 object-cover object-center p-[2px] border-2 border-white ${className}`}
                   src={foto.src}
                   alt={foto.titulo}
                 />

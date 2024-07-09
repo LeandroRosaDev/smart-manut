@@ -19,16 +19,12 @@ export default function Header() {
   return (
     <section>
       {isAuthenticated && (
-        <header className="flex items-center justify-between p-4 bg-white shadow-md ">
-          <div className="flex items-center">
-            <GetProfilePicture
-              width="60"
-              height="60"
-              className="rounded-full "
-            />
-            <div className="ml-4">
+        <header className="flex items-center justify-between p-4 bg-green-700 shadow-md ">
+          <div className="flex items-center ">
+            <GetProfilePicture width="60" height="60" />
+            <div className="ml-4 text-white">
               <h1 className="text-lg font-semibold">{user?.nome}</h1>
-              <p className="text-sm text-gray-600">{user?.email}</p>
+              <p className="text-sm text-white">{user?.email}</p>
             </div>
           </div>
           <form onSubmit={handleLogout} className="flex items-center">
