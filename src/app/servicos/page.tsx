@@ -11,16 +11,16 @@ export const metadata: Metadata = {
 export default async function ServicosPage() {
   return (
     <main className="bg-slate-100 rounded-2xl p-6 ">
-      <h1 className="text-3xl font-bold text-start mb-4 ">Serviços</h1>
+      <h1 className="text-3xl font-bold text-start mb-2 ">Serviços</h1>
       <Data />
-      <div className="flex flex-col gap-2 min-h-[800px]">
+      <div className="flex flex-col gap-4 min-h-screen mb-10">
         <Link
           href="/servicos/solicitacoes"
           className="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
         >
           <div className="flex flex-col items-center">
             <Image
-              src="/assets/servico-1.png"
+              src="/assets/img/servicos/servico-1.png"
               width={80}
               height={80}
               alt="icone"
@@ -46,7 +46,7 @@ export default async function ServicosPage() {
         >
           <div className="flex flex-col items-center">
             <Image
-              src="/assets/servico-2.png"
+              src="/assets/img/servicos/servico-2.png"
               width={80}
               height={80}
               alt="icone"
