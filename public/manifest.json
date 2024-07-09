@@ -1,7 +1,7 @@
 {
-  "name": "Smart Manut Altuori",
-  "short_name": "Smart Manut",
-  "description": "Este é um sistema pensado e criado, para a manutenção planejada de tarefas",
+  "name": "Portal Altuori Finanças",
+  "short_name": "Portal Altuori",
+  "description": "Este é um sistema personalizado criado e pensado para facilitar manipulação de documentação.",
   "start_url": "/",
   "display": "fullscreen",
   "background_color": "#ffffff",
