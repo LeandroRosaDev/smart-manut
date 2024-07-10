@@ -16,7 +16,7 @@ export default async function DocumentacoesPage() {
       <h1 className="text-2xl font-bold mb-2">Documentações</h1>
       <div className="flex flex-col gap-4 min-h-screen mb-10">
         <Link
-          href="/servicos/solicitacoes"
+          href="/servicos/documentacoes/enviar"
           className="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
         >
           <div className="flex flex-col items-center">
