@@ -41,7 +41,7 @@ export default async function ServicosPage() {
           </div>
         </Link>
         <Link
-          href="/servicos/documentacao"
+          href="/servicos/documentacoes"
           className="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
         >
           <div className="flex flex-col items-center">
