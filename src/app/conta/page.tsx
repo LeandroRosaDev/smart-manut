@@ -25,9 +25,7 @@ export default function contaPage() {
               </h1>
               <p className="text-gray-700 text-center mt-2">
                 Acesse e gerencie suas informações pessoais e configurações de
-                conta. Mantenha seus dados sempre atualizados para garantir um
-                atendimento personalizado e eficiente. Visualize e edite as
-                informações da sua conta.
+                conta.
               </p>
               <p className="text-black font-bold mt-4">Clique aqui</p>
             </div>
@@ -48,9 +46,6 @@ export default function contaPage() {
               </h1>
               <p className="text-gray-700 text-center mt-2">
                 Acompanhe de perto o andamento dos seus processos jurídicos.
-                Aqui você encontra todas as informações e atualizações sobre
-                seus casos, garantindo transparência e facilidade de acesso.
-                Visualize seus processos.
               </p>
               <p className="text-black font-bold mt-4">Clique aqui</p>
             </div>

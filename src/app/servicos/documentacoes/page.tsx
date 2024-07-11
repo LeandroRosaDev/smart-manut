@@ -29,15 +29,13 @@ export default async function DocumentacoesPage() {
 
             <p className="text-gray-700 text-center mt-2">
               Envie seus documentos de forma simples e segura através da nossa
-              plataforma. Com apenas alguns cliques, você pode garantir que
-              todas as informações estejam disponíveis para o andamento do seu
-              caso.
+              plataforma.
             </p>
             <p className="text-black font-bold mt-4 text-2xl">Enviar</p>
           </div>
         </Link>
         <Link
-          href="/servicos/solicitacoes"
+          href="/servicos/documentacoes/pesquisar"
           className="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
         >
           <div className="flex flex-col items-center">
@@ -50,8 +48,7 @@ export default async function DocumentacoesPage() {
 
             <p className="text-gray-700 text-center mt-2">
               Encontre rapidamente os documentos relacionados ao seu caso
-              utilizando nossa ferramenta de pesquisa.Clique aqui para iniciar
-              sua pesquisa e acompanhar o andamento do seu processo.
+              utilizando nossa ferramenta de pesquisa.
             </p>
             <p className="text-black font-bold mt-4 text-2xl">Pesquisar</p>
           </div>
@@ -70,9 +67,7 @@ export default async function DocumentacoesPage() {
 
             <p className="text-gray-700 text-center mt-2">
               Faça ajustes e correções nos seus documentos diretamente na nossa
-              plataforma. Nossa ferramenta de edição permite que você atualize
-              informações de maneira rápida e segura, garantindo que tudo esteja
-              correto.
+              plataforma.
             </p>
             <p className="text-black font-bold mt-4 text-2xl">Editar</p>
           </div>

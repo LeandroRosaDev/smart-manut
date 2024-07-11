@@ -18,10 +18,10 @@ export async function documentPostAction(
     });
 
     if (!response.ok) {
-      throw new Error("Failed to send document");
+      throw new Error("Falha ao enviar documento");
     }
 
-    return { ok: true, message: "Document sent successfully" };
+    return { ok: true, message: "Documento enviado com sucesso" };
   } catch (error) {
     console.error("Erro durante o envio:", error);
     throw error;

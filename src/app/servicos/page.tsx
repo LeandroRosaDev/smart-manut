@@ -29,11 +29,8 @@ export default async function ServicosPage() {
               Acompanhe suas Solicitações
             </h1>
             <p className="text-gray-700 text-center mt-2">
-              Na [Nome do Escritório], oferecemos soluções jurídicas
-              personalizadas para atender às suas necessidades. Nossa equipe de
-              advogados especializados está pronta para ajudar em diversas áreas
-              do direito, garantindo uma representação eficiente e ética.
-              Conheça nossos principais serviços.
+              Acompanhe em tempo real suas solicitações e seus serviços
+              contratados ou veja o andamento dos seus processos jurídicos.
             </p>
             <p className="text-black font-bold mt-4">
               Clique aqui para começar.
@@ -55,10 +52,8 @@ export default async function ServicosPage() {
               Verifique suas Documentações
             </h1>
             <p className="text-gray-700 text-center mt-2">
-              Facilite o andamento do seu caso enviando seus documentos de forma
-              segura e prática. Utilize nossa plataforma para enviar e acessar
-              todos os documentos necessários, garantindo que sua representação
-              legal seja ágil e eficiente.
+              Envie, edite e acompanhe toda a documentação necessário para os
+              seus processos e serviços do portal altuori.
             </p>
             <p className="text-black font-bold mt-4">
               Clique aqui para começar.

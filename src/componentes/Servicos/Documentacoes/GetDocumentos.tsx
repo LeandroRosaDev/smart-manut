@@ -1,11 +1,11 @@
 //@ts-nocheck
 
 "use client";
-import { documentGetAction } from "@/actions/processData/document-get-action";
 import { InfoProcess } from "@/interfaces/process-data-types";
 import React, { useState, useEffect } from "react";
 import { saveAs } from "file-saver";
-import getToken from "@/actions/get-token-action";
+import { documentGetAction } from "@/actions/documentos/document-get-action";
+import tokenAction from "@/actions/login/get-token";
 
 export default function GetDocumentos() {
   const [documents, setDocuments] = useState<InfoProcess[]>([]);
@@ -21,7 +21,7 @@ export default function GetDocumentos() {
 
   const handleDownload = async (url: string, title: string) => {
     try {
-      const token = await getToken();
+      const token = await tokenAction();
       console.log(token);
 
       const response = await fetch(url, {

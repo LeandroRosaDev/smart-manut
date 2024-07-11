@@ -19,7 +19,7 @@ export default function duvidasPage() {
       </div>
       <div className="flex flex-col gap-2">
         <Link href="/perguntas">
-          <div className="flex items-center p-4 bg-[#FFE7EE] rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
+          <div className="flex items-center p-4 bg-[#FFE7EE] rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 border border-black">
             <Image
               src="/assets/img/duvidas/msg.svg"
               alt="icon pergunta"
@@ -31,7 +31,7 @@ export default function duvidasPage() {
           </div>
         </Link>
         <Link href="/contato">
-          <div className="flex items-center p-4 bg-[#F4F1FF] rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
+          <div className="flex items-center p-4 bg-[#F4F1FF] rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 border border-black">
             <Image
               src="/assets/img/duvidas/mobile.svg"
               alt="icon contato"
@@ -43,7 +43,7 @@ export default function duvidasPage() {
           </div>
         </Link>
         <Link href="/consultores">
-          <div className="flex items-center p-4 bg-[#FFF1E4] rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
+          <div className="flex items-center p-4 bg-[#FFF1E4] rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 border border-black">
             <Image
               src="/assets/img/duvidas/monitor.svg"
               alt="icon consultores"
@@ -55,7 +55,7 @@ export default function duvidasPage() {
           </div>
         </Link>
         <Link href="/minhas-duvidas">
-          <div className="flex items-center p-4 bg-[#DEDEDE] rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
+          <div className="flex items-center p-4 bg-[#DEDEDE] rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 border border-black">
             <Image
               src="/assets/img/duvidas/user.svg"
               alt="icon minhas duvidas"
